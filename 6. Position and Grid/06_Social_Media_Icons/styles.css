@@ -1,0 +1,43 @@
+@import url(https://use.fontawesome.com/releases/v6.1.2/css/all.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+ul {
+    display: inline-block;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+a {
+    border-radius: 50%;
+    color: black;
+    font-size: 2rem;
+    padding: 1.5rem;
+    background-color: #eee;
+}
+
+.fa-twitter:hover {
+    color: rgb(29, 189, 201);
+}
+
+.fa-google-plus:hover {
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
